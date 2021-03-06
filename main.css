@@ -1,0 +1,124 @@
+/* This is for headings */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* This is for text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: url("background.jpg");
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: center;
+}
+
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    border: white;
+    size: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    text-decoration: white;
+}
+
+
+#heading{
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+/* h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+} */
+
+/* h3 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+} */
+
+/* p {
+    font-family: cambria;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+} */
+
+
+/* .headingdiv{
+    color:  white;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+} */
+
+
+.subheadingdiv{
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+}
+
+
+.textdiv {
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: white;
+    size: 2px;
+    border-style: solid;
+}
